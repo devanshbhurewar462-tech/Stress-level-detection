@@ -1,0 +1,39 @@
+/* TOP NAVBAR */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 60px;
+  background: #003366;
+  color: white;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-login-btn {
+  background: white;
+  color: #003366;
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
